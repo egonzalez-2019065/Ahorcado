@@ -1,11 +1,36 @@
 body {
-   background-color: aquamarine;
+   background-color: rgb(241, 200, 112);
 }
 
-.titulos {
-    
+.titulo {
+    display: flex;
+    justify-content: center;
 }
 
+.subtitulo {
+    display: flex;
+    justify-content: center;
+}
+.intentos { 
+    display: flex;
+    justify-content: center;
+}
 p{
     color: black;
 }
+.miCanva{
+    display: block;
+    border: 1px solid #000000;
+    margin: 5% auto;
+ }
+
+ .abecedario{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+ }
+
+ .abecedario button{
+    background-color: #b43232;
+ }
