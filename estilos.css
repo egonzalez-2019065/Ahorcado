@@ -27,10 +27,14 @@ p{
  .abecedario{
     align-items: center;
     justify-content: center;
-    display: flex;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+
+
 
  }
 
  .abecedario button{
     background-color: #b43232;
+    color: #ffffff;
  }

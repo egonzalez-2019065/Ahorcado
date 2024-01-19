@@ -6,3 +6,7 @@ function getPalabraRandom (palabras){
     
 }
 
+function generarEspacios(){
+    
+}
+console.log(palabras);
