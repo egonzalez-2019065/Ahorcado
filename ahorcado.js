@@ -4,20 +4,10 @@ const palabras = ["computadora",
   "hardware",
   "internet",
   "algoritmo",
-  "base de datos",
   "redes",
   "ciberseguridad",
-  "inteligencia artificial",
-  "machine learning",
   "blockchain",
-  "cloud computing",
-  "IoT",
-  "realidad aumentada",
-  "realidad virtual",
-  "big data",
-  "desarrollo web",
-  "aplicaciones moviles",
-  "sistemas operativos"];
+  "IoT"];
 const espacios = document.querySelector(".espacios");
 const tecladoDiv  = document.querySelector(".teclado");
 const intentos  = document.querySelector(".intentos b");
