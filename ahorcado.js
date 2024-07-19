@@ -70,11 +70,12 @@ function jugar (button, letraPresionada) {
 
 }
 
-for(let i = 97; i<= 122; i++){
+for (let i = 97; i <= 122; i++) {
     const button = document.createElement("button");
-    button.innerText = String.fromCharCode(i);
-    tecladoDiv.appendChild(button); 
-    button.addEventListener("click", e => jugar(e.target, String.fromCharCode(i)));
+    const character = String.fromCharCode(i);
+    button.innerText = character;
+    tecladoDiv.appendChild(button);
+    button.addEventListener("click", e => jugar(e.target, character));
 }
 
 function inicioCanva () {
